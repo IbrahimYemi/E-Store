@@ -76,6 +76,7 @@ nav ul li:hover::after {
   cursor: pointer;
 }
 
+/* cart component */
 .cart {
   position: absolute;
   top: 4rem;
@@ -88,6 +89,7 @@ nav ul li:hover::after {
   border-radius: 0.7rem;
   height: auto;
   animation: dropDown 1.5s ease;
+  overflow-y: scroll;
 }
 
 @keyframes dropDown {
@@ -106,7 +108,7 @@ nav ul li:hover::after {
 /* Track */
 .cart::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 /* Handle */
